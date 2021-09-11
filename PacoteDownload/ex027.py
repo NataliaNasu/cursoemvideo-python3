@@ -1,0 +1,7 @@
+n = str(input('Informe o seu nome completo: ')).strip()
+nome = n.split()
+#tamanho = len(nome)
+#print(f'Primeiro nome: {nome[0]}')
+#print(f'Último sobrenome: {nome[tamanho-1]}')
+print(f'O primeiro nome: {nome[0]}')
+print(f'O último sobrenome: {nome[len(nome)-1]}')

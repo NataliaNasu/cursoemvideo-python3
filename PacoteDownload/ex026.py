@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase: ')).strip()
+quantidade = frase.upper().count("A")
+print(f'Tem {quantidade} -> "A" na frase.')
+print(f'A primeira apareceu na posição {frase.upper().find("A")+1}.')
+print(f'A última, na posição {frase.upper().rfind("A")+1}.')
